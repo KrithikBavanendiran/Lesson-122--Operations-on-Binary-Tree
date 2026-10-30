@@ -1,0 +1,11 @@
+Binary Tree instertion
+If a node in the binary tree does not have its left child, then insert the given node(the one that we have to insert) as its left child.
+If a node in the binary tree does not have its right child then insert the given node as its right child.
+If the above-given conditions do not apply then search for the node which does not have a child at all and insert the given node there.
+We can use a queue for implementation of this algorithm, as it is easy to store and retrieve the nodes of the binary tree that way because queue follows the FIFO rule. Also, most of the tree algorithms are implemented using a queue.
+
+
+Binary delete
+Starting at the root, find the deepest and rightmost node in the binary tree and the node which we want to delete. 
+Replace the deepest rightmost node’s data with the node to be deleted. 
+Then delete the deepest rightmost node.
